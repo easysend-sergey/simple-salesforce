@@ -289,6 +289,7 @@ class Salesforce(object):
 
     # Generic Rest Function
     def restful(self, path, params=None, method='GET', **kwargs):
+        print("hey we customized this library")
         """Allows you to make a direct REST call if you know the path
 
         Arguments:
